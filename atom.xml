@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DorisBian</title>
+  
+  <subtitle>dorisbian</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://dorisbian.top/"/>
+  <updated>2019-08-24T14:13:20.426Z</updated>
+  <id>https://dorisbian.top/</id>
+  
+  <author>
+    <name>dorisbian</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>协同过滤算法原理</title>
+    <link href="https://dorisbian.top/2019/08/24/xie-tong-guo-lu-tui-jian-suan-fa-de-yuan-li/"/>
+    <id>https://dorisbian.top/2019/08/24/xie-tong-guo-lu-tui-jian-suan-fa-de-yuan-li/</id>
+    <published>2019-08-24T08:32:20.000Z</published>
+    <updated>2019-08-24T14:13:20.426Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div align=&quot;middle&quot;&gt;
+&lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="推荐算法" scheme="https://dorisbian.top/categories/%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="推荐算法" scheme="https://dorisbian.top/tags/%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+</feed>
