@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dorisbian.top/"/>
-  <updated>2019-08-27T02:34:34.217Z</updated>
+  <updated>2019-08-31T13:45:22.331Z</updated>
   <id>https://dorisbian.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Markdown基础</title>
-    <link href="https://dorisbian.top/2019/08/27/markdown-ji-chu/"/>
-    <id>https://dorisbian.top/2019/08/27/markdown-ji-chu/</id>
-    <published>2019-08-27T02:28:40.000Z</published>
-    <updated>2019-08-27T02:34:34.217Z</updated>
+    <title>hexo博客问题整理</title>
+    <link href="https://dorisbian.top/2019/08/31/hexo-bo-ke-wen-ti-zheng-li/"/>
+    <id>https://dorisbian.top/2019/08/31/hexo-bo-ke-wen-ti-zheng-li/</id>
+    <published>2019-08-31T13:20:14.000Z</published>
+    <updated>2019-08-31T13:45:22.331Z</updated>
     
     <summary type="html">
     
@@ -30,7 +30,60 @@
         
         
           &lt;div align=&quot;middle&quot;&gt;
-&lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://dorisbian.top/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://dorisbian.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在本地查看GitBook电子书</title>
+    <link href="https://dorisbian.top/2019/08/31/ru-he-zai-ben-di-cha-kan-gitbook-dian-zi-shu/"/>
+    <id>https://dorisbian.top/2019/08/31/ru-he-zai-ben-di-cha-kan-gitbook-dian-zi-shu/</id>
+    <published>2019-08-31T09:45:28.000Z</published>
+    <updated>2019-08-31T13:42:18.848Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div align=&quot;middle&quot;&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Git" scheme="https://dorisbian.top/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="https://dorisbian.top/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown的使用</title>
+    <link href="https://dorisbian.top/2019/08/27/markdown-de-shi-yong/"/>
+    <id>https://dorisbian.top/2019/08/27/markdown-de-shi-yong/</id>
+    <published>2019-08-27T07:38:22.000Z</published>
+    <updated>2019-08-31T13:41:51.864Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
         
       
     
@@ -48,7 +101,7 @@
     <link href="https://dorisbian.top/2019/08/27/jie-jue-hexo-tu-pian-wu-fa-xian-shi/"/>
     <id>https://dorisbian.top/2019/08/27/jie-jue-hexo-tu-pian-wu-fa-xian-shi/</id>
     <published>2019-08-27T01:44:59.000Z</published>
-    <updated>2019-08-27T02:38:26.233Z</updated>
+    <updated>2019-08-27T04:38:44.187Z</updated>
     
     <summary type="html">
     
@@ -75,7 +128,7 @@
     <link href="https://dorisbian.top/2019/08/25/test/"/>
     <id>https://dorisbian.top/2019/08/25/test/</id>
     <published>2019-08-25T14:01:37.000Z</published>
-    <updated>2019-08-27T01:40:03.836Z</updated>
+    <updated>2019-08-27T08:06:16.317Z</updated>
     
     <summary type="html">
     
