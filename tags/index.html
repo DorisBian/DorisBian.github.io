@@ -350,20 +350,20 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 </a>
                 
                 
-                <a href="/tags/推荐算法/" title="推荐算法: 1">
+                <a href="/tags/hexo/" title="hexo: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="推荐算法" style="background-color: #D5F5E3;">推荐算法
-                        <span class="tag-length">1</span>
+                            data-tagname="hexo" style="background-color: #D5F5E3;">hexo
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/hexo/" title="hexo: 2">
+                <a href="/tags/推荐算法/" title="推荐算法: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="hexo" style="background-color: #E8F8F5;">hexo
-                        <span class="tag-length">2</span>
+                            data-tagname="推荐算法" style="background-color: #E8F8F5;">推荐算法
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -400,7 +400,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"Markdown","weight":1,"link":"/tags/Markdown/"},{"text":"随笔","weight":1,"link":"/tags/随笔/"},{"text":"推荐算法","weight":1,"link":"/tags/推荐算法/"},{"text":"hexo","weight":2,"link":"/tags/hexo/"},{"text":"Git","weight":1,"link":"/tags/Git/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"Markdown","weight":1,"link":"/tags/Markdown/"},{"text":"随笔","weight":1,"link":"/tags/随笔/"},{"text":"hexo","weight":2,"link":"/tags/hexo/"},{"text":"推荐算法","weight":1,"link":"/tags/推荐算法/"},{"text":"Git","weight":1,"link":"/tags/Git/"}], {
         autoResize: true
     });
 </script>
@@ -423,8 +423,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
             
             
+            <br>
+            
+            <span id="busuanzi_container_site_pv" style='display:none'>
+                <i class="fa fa-heart-o"></i>
+                本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv" style='display:none'>
+                人次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
+            </span>
+            
+            
         </div>
-        <div class="col s12 m4 l4 social-link ">
+        <div class="col s12 m4 l4 social-link social-statis">
     <a href="https://github.com/DorisBian" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fa fa-github"></i>
     </a>
@@ -461,8 +474,8 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     $(document).ready(function () {
 
         var int = setInterval(fixCount, 50);
-        var pvcountOffset = 80000;
-        var uvcountOffset = 20000;
+        var pvcountOffset = 10;
+        var uvcountOffset = 10;
 
         function fixCount() {
             if (document.getElementById("busuanzi_container_site_pv").style.display != "none") {
@@ -500,7 +513,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2019, 08, 20, 00, 00, 00); //北京时间2019-8-20 00:00:00
+        var t1 = Date.UTC(2019, 09, 04, 00, 00, 00); //北京时间2019-9-04 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
@@ -564,6 +577,8 @@ $(function () {
 
     <script src="/libs/others/clicklove.js"></script>
 
+
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
 
 
 </body>
