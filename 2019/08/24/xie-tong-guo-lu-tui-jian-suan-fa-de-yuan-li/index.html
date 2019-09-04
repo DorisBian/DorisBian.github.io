@@ -222,7 +222,7 @@
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/dorisbian" class="waves-effect waves-light" target="_blank">
+            <a href="https://github.com/DorisBian" class="waves-effect waves-light" target="_blank">
                 <i class="fa fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
@@ -278,7 +278,7 @@
     }
 </style>
 
-<a href="https://github.com/dorisbian" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+<a href="https://github.com/DorisBian" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
    data-tooltip="Fork Me" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -457,7 +457,7 @@
                 <div class="post-author info-break-policy">
                     <i class="fa fa-user-o fa-fw"></i>作者:&nbsp;&nbsp;
                     
-                    dorisbian
+                    DorisBian
                     
                 </div>
 
@@ -488,7 +488,7 @@
 </div>
 
 <h1 id="协同过滤算法的原理及实现"><a href="#协同过滤算法的原理及实现" class="headerlink" title="协同过滤算法的原理及实现"></a>协同过滤算法的原理及实现</h1><p>　　推荐算法是诞生最早，并且较为著名的推荐算法。主要的功能是预测和推荐。算法通过对用户历史行为数据的挖掘发现用户的偏好，基于不同的偏好对用户进行群组划分并推荐品味相似的商品。协同过滤推荐算法分为两类，分别是基于用户的协同过滤算法(user-based collaboratIve filtering)，和基于物品的协同过滤算法(item-based collaborative filtering)。简单的说就是：人以类聚，物以群分。下面我们将分别说明这两类推荐算法的原理和实现方法。</p>
-<p><img src="http://img.mp.itc.cn/upload/20160323/3016206affd84c1c93ebd01ec113c9a1.jpg" alt></p>
+<p><img src="http://img.mp.itc.cn/upload/20160323/3016206affd84c1c93ebd01ec113c9a1.jpg" alt><br><img src="/2019/08/24/xie-tong-guo-lu-tui-jian-suan-fa-de-yuan-li/1.png" alt></p>
 <h2 id="基于用户的协同过滤算法-user-based-collaboratIve-filtering"><a href="#基于用户的协同过滤算法-user-based-collaboratIve-filtering" class="headerlink" title="基于用户的协同过滤算法(user-based collaboratIve filtering)"></a>基于用户的协同过滤算法(user-based collaboratIve filtering)</h2><p>　　基于用户的协同过滤算法是通过用户的历史行为数据发现用户对商品或内容的喜欢(如商品购买，收藏，内容评论或分享)，并对这些喜好进行度量和打分。根据不同用户对相同商品或内容的态度和偏好程度计算用户之间的关系。在有相同喜好的用户间进行商品推荐。简单的说就是如果A,B两个用户都购买了x,y,z三本图书，并且给出了5星的好评。那么A和B就属于同一类用户。可以将A看过的图书w也推荐给用户B。<br><img src="http://img.mp.itc.cn/upload/20160323/8e613f8f202c4a82999ba32e3f52a002_th.jpg" alt></p>
 <h3 id="寻找偏好相似的用户"><a href="#寻找偏好相似的用户" class="headerlink" title="寻找偏好相似的用户"></a>寻找偏好相似的用户</h3><p>　　我们模拟了5个用户对两件商品的评分，来说明如何通过用户对不同商品的态度和偏好寻找相似的用户。在示例中，5个用户分别对两件商品进行了评分。这里的分值可能表示真实的购买，也可以是用户对商品不同行为的量化指标。例如，浏览商品的次数，向朋友推荐商品，收藏，分享，或评论等等。这些行为都可以表示用户对商品的态度和偏好程度。<br><img src="http://img.mp.itc.cn/upload/20160323/4e070b6cc48246048f11dd45b151f88d.jpg" alt></p>
 <p>　　从表格中很难直观发现5个用户间的联系，我们将5个用户对两件商品的评分用散点图表示出来后，用户间的关系就很容易发现了。在散点图中，Y轴是商品1的评分，X轴是商品2的评分，通过用户的分布情况可以发现，A,C,D三个用户距离较近。用户A(3.3 6.5)和用户C(3.6 6.3)，用户D(3.4 5.8)对两件商品的评分较为接近。而用户E和用户B则形成了另一个群体。<br><img src="http://img.mp.itc.cn/upload/20160323/cd7f6eb1de024677929bad67b0c837ec_th.jpg" alt></p>
@@ -686,7 +686,7 @@
                 </span> 由
             <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/08/24/xie-tong-guo-lu-tui-jian-suan-fa-de-yuan-li/" property="cc:attributionName"
                rel="cc:attributionURL">
-                dorisbian
+                DorisBian
             </a> 采用
             <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">
                 知识共享署名 4.0 国际许可协议
@@ -722,9 +722,9 @@
     let gitalk = new Gitalk({
         clientID: '',
         clientSecret: '',
-        repo: 'dorisbian.github.io',
-        owner: 'dorisbian',
-        admin: "dorisbian",
+        repo: 'DorisBian.github.io',
+        owner: 'DorisBian',
+        admin: "DorisBian",
         id: '2019/08/24/xie-tong-guo-lu-tui-jian-suan-fa-de-yuan-li/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
@@ -882,7 +882,7 @@
         var url = document.location.href;
         newdiv.innerHTML += '<br />'
             + '来源: DorisBian<br />'
-            + '作者: dorisbian<br />'
+            + '作者: DorisBian<br />'
             + '链接: <a href="' + url + '">' + url + '</a><br />'
             + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
 
@@ -1006,7 +1006,7 @@
             
         </div>
         <div class="col s12 m4 l4 social-link ">
-    <a href="https://github.com/dorisbian" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/DorisBian" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fa fa-github"></i>
     </a>
 
